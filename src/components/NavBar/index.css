@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #9796f0;
+  font-family: Roboto;
+}
+
+.app-title {
+  display: flex;
+}
+
+.logo {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+.app-name {
+  font-size: 25px;
+  color: #ffffff;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.score-container {
+  display: flex;
+}
+
+.score {
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.hide {
+  display: none;
+}

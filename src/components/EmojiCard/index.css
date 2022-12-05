@@ -1,0 +1,34 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  margin: 10px;
+  height: 120px;
+  background-color: transparent;
+}
+
+.emoji-image {
+  height: 60px;
+  width: 60px;
+  margin: 20px;
+}
+.emoji-button {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ffffff33;
+  border-style: solid;
+  border-color: #ffffff33;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    width: 18%;
+    height: 180px;
+    margin: 15px;
+  }
+  .emoji-image {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+  }
+}
